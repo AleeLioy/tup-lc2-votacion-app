@@ -1,0 +1,258 @@
+:root {
+    --magenta: #ee3d8f;
+    --celeste: #37bbed;
+    --morado: #9283be;
+    --gris-claro: #9e9e9e;
+    --titulos: #333;
+    --textos: #333;
+    --fondo-pantalla: rgb(235, 245, 251);
+    --fondo-Cabecera: #18a0fb;
+    --fondo-Footer: #333;
+    --fondo-Menu: #333;
+    --texto-footer: #9e9e9e;
+    --titulo-Grilla: #727272;
+    --borde-inferior-Grilla: #727272;
+    --borde-Grilla: #c5c5c5;
+    --grafica-amarillo: rgb(252, 210, 0);
+    --grafica-amarillo-claro: rgba(252, 210, 0, 0.3);
+    --grafica-celeste: rgb(0, 169, 232);
+    --grafica-celeste-claro: rgba(0, 169, 232, 0.3);
+    --grafica-bordo: rgb(171, 40, 40);
+    --grafica-bordo-claro: rgba(171, 40, 40, 0.3);
+    --grafica-lila: rgb(112, 76, 159);
+    --grafica-lila-claro: rgba(112, 76, 159, 0.5);
+    --grafica-lila2: rgb(77, 46, 110);
+    --grafica-lila2-claro: rgba(77, 46, 110, 0.5);
+    --grafica-gris: rgb(128, 128, 128);
+    --grafica-gris-claro: rgb(128, 128, 128, 0.5);
+    --grafica-verde: rgb(102, 171, 60);
+    --grafica-verde-claro: rgba(102, 171, 60, 0.5);
+    --mensaje-usuario-amarillo: #ffc107;
+    --mensaje-usuario-verde: #28a745;
+    --mensaje-usuario-rojo: #dc3545;
+}
+
+
+.paginas {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: var(--fondo-Menu);
+    list-style-type: none;
+    align-items: center;
+    margin: 0px;
+}
+
+/*------------- NAVBAR INDEX EMPIEZA -----------------*/
+.consultar {
+    color: #FFF;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.boton-paso {
+    border: none;
+    background-color: var(--magenta);
+    border-radius: 8px;
+    padding: 10px 30px;
+    color: #FFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton-paso:hover {
+    background-color: var(--gris-claro);
+}
+
+.boton-general {
+    border: none;
+    background-color: var(--celeste);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 80px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.boton-general:hover {
+    background-color: var(--gris-claro);
+}
+
+.botones {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.boton-inicio {
+
+    border: solid 2px;
+    border-color: var(--gris-claro);
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    min-width: 80px;
+}
+
+.boton-inicio:hover {
+    background-color: var(--gris-claro);
+}
+
+/*------------- NAVBAR INDEX TERMINA -----------------*/
+
+/*-----------BOTON RESULTADOS EMPIEZA-----------*/
+
+
+.exito {
+    background-color: var(--mensaje-usuario-verde);
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.error{
+    background-color: var(--mensaje-usuario-rojo);
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.exclmacion {
+    background-color: var(--mensaje-usuario-amarillo);
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.alerta {
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+
+/*-----------BOTON RESULTADOS TERMINA-----------*/
+
+/*-----------GRILLA EMPIEZA-----------*/
+.reporte {
+    margin-left: 30px;
+}
+
+.reportes-electorales {
+    width: auto;
+    height: 350px;
+    overflow: scroll;
+    border-radius: 15px;
+    border: 1px solid var(--borde-Grilla);
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+.grilla {
+    margin: 0 auto 50px auto;
+    background-color: rgb(250, 250, 250);
+}
+
+tr:hover {
+    background-color: rgb(250, 250, 250);
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--borde-inferior-Grilla);
+    padding: 15px 0px;
+    font-size: 12px;
+}
+
+th {
+    padding: 20px;
+    vertical-align: top;
+}
+
+.texto-elecciones-chico {
+    font-size: 12px;
+    color: var(--textos);
+    font-weight: bold;
+}
+
+.texto-path-chico {
+    font-size: 11px;
+    color: var(--celeste);
+}
+
+
+.cajaRecuadros {
+    display: flex;
+}
+
+.recuadros-informativos {
+    display: flex;
+    border-radius: 10px;
+    margin: 2px;
+    height: 70px;
+    width: 150px;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    align-items: center;
+}
+
+.recuadros-informativos p {
+    color: white;
+}
+
+.mesas {
+    background-color: var(--celeste);
+}
+
+.electores {
+    background-color: var(--magenta);
+}
+
+.participacion {
+    background-color: var(--morado);
+}
+
+
+.dato {
+    color: var(--textos);
+    font-size: 11px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.titulo-partido {
+    font-weight: bold;
+}
+
+.partidos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*-----------GRILLA TERMINA-----------*/
