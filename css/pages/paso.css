@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------*/
+/*--------------------------*/
 :root {
     --magenta: #ee3d8f;
     --celeste: #37bbed;
@@ -32,7 +32,8 @@
     --mensaje-usuario-verde: #28a745;
     --mensaje-usuario-rojo: #dc3545;
 }
-/*-----------------------------------------------------------------------*/
+
+/*--------------------------*/
 .paginas {
     display: flex;
     justify-content: space-between;
@@ -149,9 +150,7 @@
     justify-content: center;
 }
 
-/*------------NAVBAR PASO TERMINA -------------*/
-
-/*-----------BOTON RESULTADOS EMPIEZA-----------*/
+/*--------------------------*/
 
 .exito {
     background-color: var(--mensaje-usuario-verde);
@@ -194,10 +193,8 @@
     font-size: 18px;
 }
 
+/*--------------------------*/
 
-/*-----------BOTON RESULTADOS TERMINA-----------*/
-
-/* -------------- CONTENIDO PASO EMPIEZA -----------------*/
 .texto-path {
     font-size: 14px;
     color: var(--celeste);
@@ -295,7 +292,7 @@
     margin: 25px;
 }
 
-/* --- BARRA DE PROGRESO EMPIEZA --- */
+/*--------------------------*/
 .progress {
     height: 35px;
     width: 100%;
@@ -316,8 +313,8 @@
     font-weight: bold;
     color: var(--textos);
 }
+/*--------------------------*/
 
-/*----- CIERRE BARRA DE PROGRESOS --------*/
 .titulo-agrupacion {
     font-size: 12px;
     font-weight: bold;
@@ -343,8 +340,7 @@
     display: flex;
 }
 
-
-/*------- RESUMEN DE FOTOS COMIEZO -----------*/
+/*--------------------------*/
 .chart-wrap {
     --chart-width: 260px;
     --grid-color: #aaa;
@@ -431,5 +427,3 @@
     display: inline-block;
     white-space: nowrap;
 }
-
-/*------- RESUMEN DE FOTOS CIERRE -----------*/

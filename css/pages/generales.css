@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------*/
+/*--------------------------*/
 :root {
     --magenta: #ee3d8f;
     --celeste: #37bbed;
@@ -32,7 +32,7 @@
     --mensaje-usuario-verde: #28a745;
     --mensaje-usuario-rojo: #dc3545;
 }
-/*-----------------------------------------------------------------------*/
+/*--------------------------*/
 .paginas {
     display: flex;
     justify-content: space-between;
@@ -148,7 +148,7 @@
     display: flex;
     justify-content: center;
 }
-/*-----------------------------------------------------------------------*/
+/*----------------------------*/
 .exito {
     background-color: var(--mensaje-usuario-verde);
     width: 400px;
@@ -189,7 +189,7 @@
     padding-right: 5px;
     font-size: 18px;
 }
-/*-----------------------------------------------------------------------*/
+/*------------------------*/
 .texto-path {
     font-size: 14px;
     color: var(--celeste);
@@ -287,7 +287,7 @@
     margin: 25px;
 }
 
-/* --- BARRA DE PROGRESO EMPIEZA --- */
+/*--------------------------*/
 .progress {
     height: 35px;
     width: 100%;
@@ -309,7 +309,7 @@
     color: var(--textos);
 }
 
-/*----- CIERRE BARRA DE PROGRESOS --------*/
+/*--------------------------*/
 
 .titulo-agrupacion {
     font-size: 12px;
@@ -337,7 +337,7 @@
 }
 
 
-/*------- RESUMEN DE FOTOS COMIEZO -----------*/
+/*--------------------------*/
 .chart-wrap {
     --chart-width: 260px;
     --grid-color: #aaa;
@@ -424,5 +424,3 @@
     display: inline-block;
     white-space: nowrap;
 }
-
-/*------- RESUMEN DE FOTOS CIERRE -----------*/
